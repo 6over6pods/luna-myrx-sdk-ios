@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-dataservices-sdk-ios",
       "state" : {
-        "revision" : "80206e07eee85bb7ba63e59fe1ba2b3fdb89e7a8",
-        "version" : "5.1.0"
+        "revision" : "10423c494eed3dc525726e0584686457451661eb",
+        "version" : "6.0.0"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "994b321cdc5fd891140f0bc2dae3a5b73f7c60dc",
-        "version" : "5.41.0"
+        "revision" : "eb8ade8a4a60d0417268a59d519e037abe7c259f",
+        "version" : "5.42.0"
       }
     },
     {
