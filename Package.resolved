@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-dataservices-sdk-ios",
       "state" : {
-        "revision" : "10423c494eed3dc525726e0584686457451661eb",
-        "version" : "6.0.0"
+        "revision" : "183856c3afe322b431101e935ffa0a565df2f94b",
+        "version" : "6.0.1"
       }
     },
     {
