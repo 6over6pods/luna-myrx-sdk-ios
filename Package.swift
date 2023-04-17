@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
-            exact: "6.0.0"
+            exact: "6.0.1"
         )
     ],
     targets: [
