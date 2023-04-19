@@ -18,11 +18,11 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             url: "https://github.com/6over6pods/luna-goeyes-sdk-ios",
-            exact: "5.42.1"
+            exact: "5.42.2"
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
-            exact: "6.0.1"
+            exact: "6.0.2"
         )
     ],
     targets: [
