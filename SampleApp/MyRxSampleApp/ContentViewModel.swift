@@ -24,9 +24,9 @@ class ContentViewModel: ObservableObject {
             Task {
                 do {
                     try await MyRx.initialize(delegate: self,
-                                              clientID: "Paste Clint ID Here",
+                                              clientID: "Paste Client ID Here",
                                               profileName: "Paste Profile Name Here",
-                                              environmentUrl: "https://api.glasseson.com/prod/",
+                                              region: .staging,
                                               showOnboarding: true,
                                               userInterfaceConfiguration: MyRxUIConfiguration(fontFamily: "Lexend"))
                     self.logMessage("Initialize finished successfully")
@@ -97,6 +97,12 @@ class ContentViewModel: ObservableObject {
 }
 
 extension ContentViewModel: MyRxDelegate {
+    
+    func receivedLunaID(lunaID: String) {
+        logMessage("receivedLunaID")
+
+    }
+    
     func onClose(reason: MyRxCloseReason) {
         logMessage("SDK was closed with reason: \(reason)")
         openControls()
