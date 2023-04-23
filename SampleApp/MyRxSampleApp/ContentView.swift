@@ -11,28 +11,33 @@ struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
     
     var body: some View {
-        Form {
-            Section {
-                Button("Init",
-                       action: viewModel.initialize)
+        switch viewModel.viewState {
+        case .myRx:
+            AnyView(viewModel.myRxView)
+        case .controls:
+            Form {
+                Section {
+                    Button("Init",
+                           action: viewModel.initialize)
 
-                Button("Start",
-                       action: viewModel.start)
+                    Button("Start",
+                           action: viewModel.start)
 
-                Button("Close",
-                       action: viewModel.close)
+                    Button("Close",
+                           action: viewModel.close)
 
-                Button("Session ID",
-                       action: viewModel.sessionID)
+                    Button("Session ID",
+                           action: viewModel.sessionID)
 
-                Button("User ID",
-                       action: viewModel.userID)
+                    Button("User ID",
+                           action: viewModel.userID)
 
-                Button("Is Initialized",
-                       action: viewModel.isInitialized)
+                    Button("Is Initialized",
+                           action: viewModel.isInitialized)
 
-                Button("Is Open",
-                       action: viewModel.isOpen)
+                    Button("Is Open",
+                           action: viewModel.isOpen)
+                }
             }
         }
     }
