@@ -18,11 +18,11 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             url: "https://github.com/6over6pods/luna-goeyes-sdk-ios",
-            exact: "5.42.2"
+            exact: "5.43.0"
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
-            exact: "6.0.2"
+            exact: "7.0.1"
         ),
         .package(
             url: "https://github.com/mixpanel/mixpanel-swift",
