@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "84ce16336653b910d7c68db84e6233be1d08d009",
-        "version" : "5.43.6"
+        "revision" : "cadc80d0bfcabb75ac611f5e0bdfab08ba1dcf1e",
+        "version" : "5.43.7"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mixpanel/mixpanel-swift",
       "state" : {
-        "revision" : "78e020a28d3878900e96224aad1b10219ab611f9",
-        "version" : "4.1.2"
+        "revision" : "7c6f28ecbf49a72d952974f7f649686e43861f0d",
+        "version" : "4.1.3"
       }
     }
   ],
