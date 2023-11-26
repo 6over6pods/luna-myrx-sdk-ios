@@ -17,8 +17,12 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
+            url: "https://github.com/6over6pods/luna-glasseson-sdk-ios",
+            exact: "5.45.1"
+        ),
+        .package(
             url: "https://github.com/6over6pods/luna-goeyes-sdk-ios",
-            exact: "5.43.13"
+            exact: "5.44.2"
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
@@ -26,7 +30,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/mixpanel/mixpanel-swift",
-            "4.1.2" ..< "4.2.0"
+            exact: "4.2.0"
         )
     ],
     targets: [
@@ -35,6 +39,7 @@ let package = Package(
         .target(
             name: "MyRxSDKWrapper",
             dependencies: [.product(name: "Mixpanel", package: "mixpanel-swift"),
+                           .product(name: "GlassesOnSDK", package: "luna-glasseson-sdk-ios"),
                            .product(name: "GoEyesSDK", package: "luna-goeyes-sdk-ios"),
                            .product(name: "PHISDK", package: "luna-dataservices-sdk-ios"),
                            .target(name: "MyRxSDK")]
