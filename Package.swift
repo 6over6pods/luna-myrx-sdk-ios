@@ -17,8 +17,12 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
+            url: "https://github.com/6over6pods/luna-glasseson-sdk-ios",
+            exact: "5.45.1"
+        ),
+        .package(
             url: "https://github.com/6over6pods/luna-goeyes-sdk-ios",
-            exact: "5.43.14"
+            exact: "5.44.2"
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
@@ -26,7 +30,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/mixpanel/mixpanel-swift",
-            "4.1.2" ..< "4.2.0"
+            exact: "4.2.0"
         )
     ],
     targets: [
@@ -35,14 +39,15 @@ let package = Package(
         .target(
             name: "MyRxSDKWrapper",
             dependencies: [.product(name: "Mixpanel", package: "mixpanel-swift"),
+                           .product(name: "GlassesOnSDK", package: "luna-glasseson-sdk-ios"),
                            .product(name: "GoEyesSDK", package: "luna-goeyes-sdk-ios"),
                            .product(name: "PHISDK", package: "luna-dataservices-sdk-ios"),
                            .target(name: "MyRxSDK")]
         ),
         .binaryTarget(
             name: "MyRxSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/5.2.12/MyRxSDK.xcframework.zip",
-            checksum: "7377ad81d1c774b2648d89d5ea4ed67f002aea29c907240a313bee14508deab3"
+            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/5.3.0/MyRxSDK.xcframework.zip",
+            checksum: "891480fec01f41dde8d80013329d14e62725173bf51b9bdc0230f142a0e5c08e"
         )
     ]
 )
