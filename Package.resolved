@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "3a154c5a62cdc446e72aa3d1d711a692b347d9a0",
-        "version" : "5.44.3"
+        "revision" : "e94876d68f82199a42956b69d514ca651ed8ee33",
+        "version" : "5.44.4"
       }
     },
     {
