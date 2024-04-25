@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "e94876d68f82199a42956b69d514ca651ed8ee33",
-        "version" : "5.44.4"
+        "revision" : "5908b6f0bd81ce2cfefc22dd0d81b53e98fe84ea",
+        "version" : "5.45.1"
       }
     },
     {
@@ -41,8 +41,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mixpanel/mixpanel-swift",
       "state" : {
-        "revision" : "ecd44ed6af66d45a50e62401228430c54c60dd26",
-        "version" : "4.2.0"
+        "revision" : "2dc2121b6dff467090164e9d967af332ea47ce19",
+        "version" : "4.2.6"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
+        "version" : "1.1.0"
       }
     },
     {
@@ -50,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kirualex/SwiftyGif.git",
       "state" : {
-        "revision" : "d6d26061d6553a493781ad3df4a8e275c43fc373",
-        "version" : "5.4.4"
+        "revision" : "4430cbc148baa3907651d40562d96325426f409a",
+        "version" : "5.4.5"
       }
     }
   ],
