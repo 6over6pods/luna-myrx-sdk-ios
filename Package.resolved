@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-glasseson-sdk-ios",
       "state" : {
-        "revision" : "f6b2c8536a30319baf1f716bd5553a472d36e9d3",
-        "version" : "5.46.0"
+        "revision" : "d76cb77e1dfceecf7def6eac22e2922d0d5d482a",
+        "version" : "5.48.0-4666"
       }
     },
     {
