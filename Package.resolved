@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-dataservices-sdk-ios",
       "state" : {
-        "revision" : "7d8878450241fa921a7b2ff7079e3f1f9d33d5d2",
-        "version" : "8.3.0"
+        "revision" : "4c805f2ba3ff47000da9e5c36ca3021837db8a71",
+        "version" : "8.4.0-72"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-glasseson-sdk-ios",
       "state" : {
-        "revision" : "d76cb77e1dfceecf7def6eac22e2922d0d5d482a",
-        "version" : "5.48.0-4666"
+        "revision" : "29271961250491895443e9f870ab031805ea30e7",
+        "version" : "5.49.2-4670"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "5908b6f0bd81ce2cfefc22dd0d81b53e98fe84ea",
-        "version" : "5.45.1"
+        "revision" : "87f4994be0e1042cfd09a4b574da0f2a54fabda0",
+        "version" : "5.45.2-924"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mixpanel/mixpanel-swift",
       "state" : {
-        "revision" : "2dc2121b6dff467090164e9d967af332ea47ce19",
-        "version" : "4.2.6"
+        "revision" : "7f73084879cf6f8c50ab93e34ab0aae2569b04a8",
+        "version" : "4.2.7"
       }
     },
     {
