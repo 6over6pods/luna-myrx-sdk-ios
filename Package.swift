@@ -22,11 +22,11 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/6over6pods/luna-goeyes-sdk-ios",
-            exact: "5.45.1"
+            exact: "5.45.3-1000"
         ),
         .package(
             url: "https://github.com/6over6pods/luna-dataservices-sdk-ios",
-            exact: "8.3.0"
+            exact: "8.4.0-72"
         ),
         .package(
             url: "https://github.com/mixpanel/mixpanel-swift",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MyRxSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/5.5.0/MyRxSDK.xcframework.zip",
-            checksum: "5b767f98d70703ea76a13442772f1b34ba5ddbe8e4ae54348a33608898a76aa5"
+            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/5.7.0-209/MyRxSDK.xcframework.zip",
+            checksum: "9f886be97f0c2773655e92b78d6ead6d7785d59d247afee060dc7d8c07d42593"
         )
     ]
 )
