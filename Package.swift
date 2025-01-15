@@ -30,7 +30,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/mixpanel/mixpanel-swift",
-            .upToNextMajor(from: "4.1.2")
+            .upToNextMinor(from: "4.3.0")
         )
     ],
     targets: [
