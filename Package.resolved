@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-glasseson-sdk-ios",
       "state" : {
-        "revision" : "4e75b986e407eae9f40fae43339448bc0790be62",
-        "version" : "5.56.0-2562"
+        "revision" : "e9c70d156878889c59b46196b55e6d64ff56be35",
+        "version" : "5.58.1-2718"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/6over6pods/luna-goeyes-sdk-ios",
       "state" : {
-        "revision" : "d4189deea5ea9971e3833c6320a3250e0dfeeee0",
-        "version" : "5.45.10-1743"
+        "revision" : "196431d287dfbafc0711e31e4ed1705a6ae1a045",
+        "version" : "5.46.4-2164"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mixpanel/mixpanel-swift",
       "state" : {
-        "revision" : "2dc2121b6dff467090164e9d967af332ea47ce19",
-        "version" : "4.2.6"
+        "revision" : "48d6668ceaaefc338f94e2b084c3cf77b90182f8",
+        "version" : "4.3.0"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections.git",
       "state" : {
-        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
-        "version" : "1.1.0"
+        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
+        "version" : "1.1.4"
       }
     },
     {
