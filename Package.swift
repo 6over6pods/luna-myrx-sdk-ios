@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MyRxSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/5.16.4-589/MyRxSDK.xcframework.zip",
-            checksum: "de52b5edde61efcc9180be5db4fbe72d972bc7fd876d2c34d87a6a87f643f6cc"
+            url: "https://glasseson.jfrog.io/artifactory/luna-myrx-sdk-ios-local/6.2.3-1254/MyRxSDK.xcframework.zip",
+            checksum: "11892aef9ffab0918c1e423e80662c5066b4c0eec1808a2a3290b08299dc2f37"
         )
     ]
 )
